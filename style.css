@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 32px;
 }
 
 .logo {
@@ -12,6 +13,31 @@
 .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    justify-self: flex-end;
+}
+
+.banner-content-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1;
+    width: 300px;
+    justify-content: space-between;
 }
 
 ul {
@@ -34,6 +60,7 @@ a {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+    width: 80px;
 }
 
 .banner-img {
