@@ -1,8 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
 .top-banner {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 32px;
+    /*Make left/right padding the same for each section*/
+    padding: 0 32px;
+    /*Makes top-banner take up entire page width*/
+    flex: auto;
+    align-items: center;
+}
+
+/*Used to align content of each section in center of page*/ 
+.content-alignment {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    flex: 1 1 1;
 }
 
 .logo {
@@ -18,6 +36,8 @@
 .header {
     display: flex;
     align-items: center;
+    /*pushes elements to either side*/
+    justify-content: space-between;
 }
 
 .header-links {
@@ -28,8 +48,10 @@
 
 .banner-content-container {
     display: flex;
-    justify-content: center;
+    /*pushes elements to either side*/
+    justify-content: space-between;
     gap: 32px;
+    margin: 100px 0;
 }
 
 .hero-card {
@@ -60,7 +82,10 @@ a {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    width: 80px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
 }
 
 .banner-img {
