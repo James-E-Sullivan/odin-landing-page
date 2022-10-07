@@ -17,7 +17,7 @@ body {
 
 /*Used to align content of each section in center of page*/ 
 .content-alignment-large {
-    width: 1000px;
+    width: 900px;
     display: flex;
     flex-direction: column;
 }
@@ -95,7 +95,8 @@ button {
 }
 
 .banner-img {
-    width: 300px;
+    height: 225px;
+    width: auto;
 }
 
 /*information section*/
