@@ -58,6 +58,7 @@ body {
     justify-content: space-between;
     gap: 32px;
     margin: 100px 0;
+    flex-wrap: wrap;
 }
 
 .hero-card {
@@ -87,7 +88,7 @@ a {
 
 button {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-weight: bold;
     width: 100px;
     height: 30px;
