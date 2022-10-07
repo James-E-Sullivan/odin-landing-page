@@ -155,3 +155,16 @@ button {
     color: #1F2937;
     align-self: flex-end;
 }
+
+/*call to action section*/
+.call-to-action-section {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 64px 32px;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+}
