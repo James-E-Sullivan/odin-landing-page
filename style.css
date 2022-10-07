@@ -44,6 +44,8 @@ body {
     align-items: center;
     /*pushes elements to either side*/
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .header-links {
@@ -67,6 +69,7 @@ body {
     flex: 0 1 1;
     max-width: 500px;
     justify-content: space-between;
+    gap: 16px;
 }
 
 ul {
@@ -194,6 +197,7 @@ button {
     /*these changes allow div to shrink correctly*/
     max-width: 750px;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .call-to-action {
